@@ -33,7 +33,7 @@ const FeaturedEvents = () => {
       title: "Pet Show",
       id: "pet-show",
       description: "Animal compassion awareness event for students and local pet owners in the community.",
-      image: "/public/pet.png",
+      image: "/pet.png",
       participants: "900+ Attendees",
       impact: "Animal Welfare"
     },
@@ -41,7 +41,7 @@ const FeaturedEvents = () => {
       title: "Spot Fix",
       id: "spot-fix",
       description: "Cleanliness drive inspired by Swachh Bharat with before/after transformations of campus areas.",
-      image: "/public/spotfix.png",
+      image: "/spotfix.png",
       participants: "50+ Students",
       impact: "Campus Transformation"
     },
@@ -49,7 +49,7 @@ const FeaturedEvents = () => {
       title: "E-Waste Drive",
       id: "e-waste-drive",
       description: "Campus-wide electronic waste collection with active student and faculty participation.",
-      image: "/public/ewaste.png",
+      image: "/ewaste.png",
       participants: "Entire Campus",
       impact: "Waste Management"
     }
