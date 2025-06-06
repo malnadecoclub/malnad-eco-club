@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 
 const Gallery = () => {
@@ -6,23 +5,23 @@ const Gallery = () => {
 
   // Updated to use local images from public folder
   const galleryImages = [
-    "/public/gallery/eco2.jpg",
-    "/public/gallery/eco6.jpg",
-    "/public/gallery/ecob4.jpg",
-    "/public/gallery/ecob3.jpg",
-    "/public/gallery/ecob2.jpg",
-    "/public/gallery/ecob1.jpg",
-    "/public/gallery/eco3.jpg",
-    "/public/gallery/eco4.jpg",
-    "/public/gallery/eco5.jpg",
-    "/public/gallery/eco.jpg",
-    "/public/gallery/vc.png",
-    "/public/gallery/eternity.png",
-    "/public/gallery/bibarthi.jpg",
-    "/public/gallery/pet.png",
-    "/public/gallery/ewaste.png",
-    "/public/gallery/plastic.png",
-    "/public/gallery/spotfix.png",
+    "/gallery/eco2.jpg",
+    "/gallery/eco6.jpg",
+    "/gallery/ecob4.jpg",
+    "/gallery/ecob3.jpg",
+    "/gallery/ecob2.jpg",
+    "/gallery/ecob1.jpg",
+    "/gallery/eco3.jpg",
+    "/gallery/eco4.jpg",
+    "/gallery/eco5.jpg",
+    "/gallery/eco.jpg",
+    "/gallery/vc.png",
+    "/gallery/eternity.png",
+    "/gallery/bibarthi.jpg",
+    "/gallery/pet.png",
+    "/gallery/ewaste.png",
+    "/gallery/plastic.png",
+    "/gallery/spotfix.png",
   ];
 
   useEffect(() => {

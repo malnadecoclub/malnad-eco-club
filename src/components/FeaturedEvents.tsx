@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -9,24 +8,24 @@ const FeaturedEvents = () => {
     {
       title: "Vanya Chaithanya",
       id: "vanya-chaithanya",
-      description: "Nature awareness event with 400+ students from 60+ schools, conducted with Forest Department.",
-      image: "/public/vc.png",
+      description: "A nature awareness program that connects students with the environment through various activities and workshops.",
+      image: "/vc.png",
       participants: "800+ Students",
       impact: "60+ Schools"
     },
     {
       title: "Eternity",
       id: "eternity",
-      description: "Flagship fest combining technical innovation with eco-awareness through competitions and exhibitions.",
-      image: "/public/eternity.png",
+      description: "An annual environmental fest that brings together students from various colleges to participate in eco-friendly competitions.",
+      image: "/eternity.png",
       participants: "500+ Participants",
       impact: "Innovative Thinking"
     },
     {
       title: "Bibharthi",
       id: "bibharthi",
-      description: "Sapling distribution and seed ball making workshops for school children and community members.",
-      image: "/public/bibarthi.jpg",
+      description: "A cultural event that celebrates the rich heritage and traditions of our region while promoting environmental consciousness.",
+      image: "/bibarthi.jpg",
       participants: "100+ Kids",
       impact: "Green Distribution"
     },

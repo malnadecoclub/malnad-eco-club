@@ -12,84 +12,84 @@ const AllEvents = () => {
       id: "vanya-chaithanya", // Added unique ID
       description: "Nature awareness event with 400+ students from 60+ schools, conducted with Forest Department.",
       fullDescription: "Vanya Chaithanya is our flagship nature awareness program conducted in collaboration with the Forest Department. This event brings together students from over 60 schools to learn about biodiversity conservation, wildlife protection, and sustainable practices. Through interactive workshops, nature walks, and expert talks, students develop a deeper connection with the natural world.",
-      image: "/public/vc.png",
+      image: "/vc.png",
       date: "November 2025",
       venue: "Malnad College Campus & Forest Reserve",
       participants: "800+ Students",
       impact: "60+ Schools",
-      gallery: ["/public/gallery/vc1.jpg", "/public/gallery/vc2.jpg", "/public/gallery/eco3.jpg"]
+      gallery: ["/gallery/vc1.jpg", "/gallery/vc2.jpg", "/gallery/eco3.jpg"]
     },
     {
       title: "Eternity",
       id: "eternity", // Added unique ID
       description: "Flagship fest combining technical innovation with eco-awareness through competitions and exhibitions.",
       fullDescription: "Eternity is our annual eco-tech festival that bridges the gap between technological innovation and environmental sustainability. The event features project exhibitions, hackathons, and design challenges focused on solving real-world environmental problems. Students showcase their creative solutions for waste management, renewable energy, water conservation, and more.",
-      image: "/public/eternity.png",
+      image: "/eternity.png",
       date: "April 2025",
       venue: "Malnad College Auditorium",
       participants: "500+ Participants",
       impact: "Innovative Thinking",
-      gallery: ["/public/gallery/eco6.jpg", "/public/gallery/eternity2.jpg", "/public/gallery/eternity3.jpg"]
+      gallery: ["/gallery/eco6.jpg", "/gallery/eternity2.jpg", "/gallery/eternity3.jpg"]
     },
     {
       title: "Bibharthi",
       id: "bibharthi", // Added unique ID
       description: "Sapling distribution and seed ball making workshops for school children and community members.",
       fullDescription: "Bibharthi is our community greening initiative that focuses on increasing the green cover in and around Hassan. Through this program, we organize sapling distribution drives and teach seed ball making techniques to school children and community members. The event also includes educational sessions on the importance of native plant species and proper plant care.",
-      image: "/public/bibarthi.jpg",
+      image: "/bibarthi.jpg",
       date: "December 2024",
       venue: "Various Schools in Hassan",
       participants: "100+ Kids",
       impact: "Green Distribution",
-      gallery: ["/public/gallery/bibarthi1.jpg", "/public/gallery/bibarthi2.jpg", "/public/gallery/bibarthi3.jpg"]
+      gallery: ["/gallery/bibarthi1.jpg", "/gallery/bibarthi2.jpg", "/gallery/bibarthi3.jpg"]
     },
     {
       title: "Pet Show",
       id: "pet-show", // Added unique ID
       description: "Animal compassion awareness event for students and local pet owners in the community.",
       fullDescription: "Our annual Pet Show brings together pet lovers from across the community to celebrate the bond between humans and animals. The event features pet competitions, adoption drives, and educational sessions on responsible pet ownership and animal welfare. Veterinarians provide free check-ups and advice on pet care, while animal welfare organizations raise awareness about animal rights.",
-      image: "/public/gallery/pet1.jpg",
+      image: "/gallery/pet1.jpg",
       date: "April 2025",
       venue: "Malnad College Grounds",
       participants: "900+ Attendees",
       impact: "Animal Welfare",
-      gallery: ["/public/gallery/pet2.jpg", "/public/gallery/pet3.jpg", "/public/gallery/pet5.jpg"]
+      gallery: ["/gallery/pet2.jpg", "/gallery/pet3.jpg", "/gallery/pet5.jpg"]
     },
     {
       title: "Spot Fix",
       id: "spot-fix", // Added unique ID
       description: "Cleanliness drive inspired by Swachh Bharat with before/after transformations of campus areas.",
       fullDescription: "Spot Fix is our cleanliness initiative inspired by the Swachh Bharat Mission. We identify neglected areas on campus and in the community and transform them through cleaning, painting, and beautification. Before and after photos document the dramatic transformations achieved through collective effort. The program instills a sense of ownership and pride in maintaining clean surroundings.",
-      image: "/public/gallery/spotfix3.png",
+      image: "/gallery/spotfix3.png",
       date: "Yearly",
       venue: "Various Locations",
       participants: "50+ Students per drive",
       impact: "Campus Transformation",
-      gallery: ["/public/gallery/spotfix1.jpg", "/public/gallery/spotfix2.png", "/public/gallery/spotfix4.png"]
+      gallery: ["/gallery/spotfix1.jpg", "/gallery/spotfix2.png", "/gallery/spotfix4.png"]
     },
     {
       title: "E-Waste Drive",
       id: "e-waste-drive", // Added unique ID
       description: "Campus-wide electronic waste collection with active student and faculty participation.",
       fullDescription: "Our E-Waste Drive is a campus-wide initiative to collect and responsibly dispose of electronic waste. Students and faculty bring in old electronics, batteries, and other e-waste for proper recycling. The event includes awareness sessions on the environmental impact of e-waste and the importance of responsible disposal. We partner with certified e-waste recyclers to ensure proper handling of collected materials.",
-      image: "/public/ewaste.png",
+      image: "/ewaste.png",
       date: "September 2023",
       venue: "Malnad College Campus",
       participants: "Entire Campus",
       impact: "Waste Management",
-      gallery: ["/public/gallery/ewaste1.png", "/public/gallery/ewaste2.png", "/public/gallery/ewaste3.png"]
+      gallery: ["/gallery/ewaste1.png", "/gallery/ewaste2.png", "/gallery/ewaste3.png"]
     },
     {
       title: "Plastic Collection Drive",
       id: "plastic-collection-drive", // Added unique ID
       description: "Initiative to collect and recycle plastic waste from campus and surrounding communities.",
       fullDescription: "Our Plastic Collection Drive aims to reduce plastic pollution by collecting and recycling plastic waste from the campus and surrounding communities. We set up collection points across campus and organize community clean-up events. The collected plastic is sorted and sent for recycling. Educational workshops on plastic alternatives and reducing plastic consumption are conducted alongside the collection drive.",
-      image: "/public/plastic.png",
+      image: "/plastic.png",
       date: "Yearly",
       venue: "Campus & Community",
       participants: "50+ Contributors",
       impact: "Reduced Plastic Waste",
-      gallery: ["/public/gallery/plastic1.png", "/public/gallery/plastic2.png", "/public/gallery/plastic3.png"]
+      gallery: ["/gallery/plastic1.png", "/gallery/plastic2.png", "/gallery/plastic3.png"]
     }
   ];
 
