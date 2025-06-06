@@ -20,9 +20,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="https://i.postimg.cc/xcNb9N6H/logo.png" 
-              alt="Malnad Eco Club" 
-              className="w-12 h-12 rounded-xs object-contain p-1 "
+              src="/logo.png"
+              alt="Malnad Eco Club Logo"
+              className="h-12 w-auto"
             />
             <div>
               <h1 className="text-xl font-bold text-white">Malnad Eco Club</h1>

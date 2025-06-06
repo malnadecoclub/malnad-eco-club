@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -10,9 +9,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="https://i.postimg.cc/xcNb9N6H/logo.png"
-                alt="Malnad Eco Club"
-                className="w-10 h-10 rounded-full"
+                src="/logo.png"
+                alt="Malnad Eco Club Logo"
+                className="h-12 w-auto"
               />
               <div>
                 <h3 className="text-xl font-bold">Malnad Eco Club</h3>
