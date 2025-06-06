@@ -17,5 +17,20 @@ export default defineConfig(({ mode }) => ({
       "@logo": path.resolve(__dirname, "./public/logo.png")
     }
   },
-  publicDir: "public"
+  publicDir: "public",
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: mode === 'development',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+        },
+      },
+    },
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom'],
+  }
 }));
