@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -24,7 +23,7 @@ const TeamPreview = () => {
       { name: "Moulya S Gowda", designation: "Vice President", image: "/members/4/moulya.jpg" },
       { name: "Sagar S Y", designation: "Vice President", image: "/members/4/sagar.jpg" },
       { name: "Charmitha Jain", designation: "General Secretary", image: "/members/4/charmitha.jpg" },
-      { name: "Deepthi J Prakash", designation: "Student Coordinator & Editorial Head", image: "/members/4/deepthi.jpg" },
+      { name: "Deepthi J Prakash", designation: "Student Convener", image: "/members/4/deepthi.jpg" },
       { name: "Prarthana Y T", designation: "Head Treasurer", image: "/members/4/prarthana.jpg" },
       { name: "Srinath Gowda S M", designation: "Digital & Social Media Head", image: "/members/4/seena.jpg" },
       { name: "Yuktha S Gowda", designation: "Editorial Head", image: "/members/4/yuktha.jpg" },
@@ -134,9 +133,9 @@ const TeamPreview = () => {
           {Object.entries(clubMembersByYear).map(([year, members]) => (
             <div key={year} className="mb-12"> {/* Add margin bottom to separate sections */}
               <h4 className="text-xl font-semibold text-white mb-6 text-center">{year}</h4>
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-                {/* Map over members for the current year, limiting to 12 */}
-                {members.slice(0, 12).map((member, index) => (
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                {/* Map over members for the current year, limiting to 16 */}
+                {members.slice(0, 16).map((member, index) => (
                   <Card key={index} className="bg-gray-700 border-gray-600 text-center group hover:shadow-lg transition-all duration-300">
                     <CardContent className="p-4">
                       <div className="w-20 h-20 mx-auto rounded-full bg-gray-600 flex items-center justify-center mb-3 overflow-hidden">

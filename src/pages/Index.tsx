@@ -1,7 +1,6 @@
 
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import GroupPhoto from "@/components/GroupPhoto";
 import FeaturedEvents from "@/components/FeaturedEvents";
 import Gallery from "@/components/Gallery";
 import TeamPreview from "@/components/TeamPreview";
@@ -15,7 +14,6 @@ const Index = () => {
       <Navbar />
       <Hero />
       <About />
-      <GroupPhoto />
       <FeaturedEvents />
       <Gallery />
       <TeamPreview />
