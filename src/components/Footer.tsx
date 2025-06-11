@@ -35,6 +35,10 @@ const Footer = () => {
                 <span className="sr-only">YouTube</span>
                 <i className="fa-brands fa-youtube"></i>
               </a>
+              <a href="https://www.linkedin.com/company/malnadecoclub/" className="text-gray-400 hover:text-white transition-colors">
+                <span className="sr-only">LinkedIn</span>
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
             </div>
           </div>
 

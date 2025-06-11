@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -203,6 +202,17 @@ const ContactSection = () => {
                     <div>
                       <div className="font-medium">YouTube</div>
                       <div className="text-sm">@MalnadEcoClub</div>
+                    </div>
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/company/malnadecoclub/" 
+                    target="_blank"
+                    className="flex items-center space-x-3 text-gray-300 hover:text-blue-600 transition-colors"
+                  >
+                    <span className="text-2xl"><i className="fa-brands fa-linkedin"></i></span>
+                    <div>
+                      <div className="font-medium">LinkedIn</div>
+                      <div className="text-sm">@malnadecoclub</div>
                     </div>
                   </a>
                 </div>
